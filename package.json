@@ -1,0 +1,45 @@
+{
+  "name": "Japanibot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "asynckit": "^0.4.0",
+    "combined-stream": "^1.0.8",
+    "complex.js": "^2.0.12",
+    "decimal.js": "^10.2.1",
+    "delayed-stream": "^1.0.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "escape-latex": "^1.2.0",
+    "event-target-shim": "^5.0.1",
+    "fraction.js": "^4.0.13",
+    "javascript-natural-sort": "^0.7.1",
+    "mathjs": "^9.3.2",
+    "mime-db": "^1.47.0",
+    "mime-types": "^2.1.30",
+    "module-alias": "^2.2.2",
+    "node-fetch": "^2.6.1",
+    "prism-media": "^1.2.9",
+    "seedrandom": "^3.0.5",
+    "setimmediate": "^1.0.5",
+    "tiny-emitter": "^2.1.0",
+    "tweetnacl": "^1.0.3",
+    "typed-function": "^2.0.0",
+    "ws": "^7.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@root": ".",
+    "@utils": "./utils",
+    "@modules": "./modules",
+    "@data": "./data"
+  }
+}

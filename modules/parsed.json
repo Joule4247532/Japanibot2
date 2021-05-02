@@ -1,0 +1,33 @@
+{
+    "disabled_cmds": [],
+    "disabled_modules": [],
+    "commands": {
+        "<help": "F:\\User_Space\\Projects\\Coding\\Japanibot2\\modules\\base\\commands\\help.js",
+        "<h": "F:\\User_Space\\Projects\\Coding\\Japanibot2\\modules\\base\\commands\\help.js",
+        "<ping": "F:\\User_Space\\Projects\\Coding\\Japanibot2\\modules\\base\\commands\\ping.js"
+    },
+    "reactors": {},
+    "schedulers": {},
+    "dynamic_help": [
+        {
+            "moduleName": "base",
+            "aliases": [
+                "help",
+                "h"
+            ],
+            "description": "Affiche ce message d'aide",
+            "syntax": "",
+            "reqPerms": [],
+            "reqRoles": [],
+            "ownerOnly": false
+        },
+        {
+            "moduleName": "base",
+            "aliases": [
+                "ping"
+            ],
+            "description": "Calcule et montre la latence du bot et du API",
+            "syntax": ""
+        }
+    ]
+}
